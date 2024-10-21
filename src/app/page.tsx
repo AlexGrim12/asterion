@@ -293,7 +293,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="hover:text-blue-400 transition duration-300"
                 >
-                  WhatsApp: +52 (565) 323-9353
+                  WhatsApp: +52 (565) 323-9357
                 </a>
               </p>
               <p>
