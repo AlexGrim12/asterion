@@ -1,0 +1,98 @@
+[
+  {
+    "id": 13,
+    "userId": "user456",
+    "userName": "Emily Clark",
+    "roomNumber": "307",
+    "title": "Biometric Access Registration",
+    "description": "Requesting biometric access setup for LYF.",
+    "createdAt": "2024-10-28T17:10:00",
+    "status": "pending",
+    "type": "access",
+    "priority": "medium"
+  },
+  {
+    "id": 14,
+    "userId": "user567",
+    "userName": "Sophia Martinez",
+    "roomNumber": "311",
+    "title": "Biometric Access Reset",
+    "description": "Biometric access not working. Requesting reset.",
+    "createdAt": "2024-10-28T17:45:00",
+    "status": "in progress",
+    "type": "access",
+    "priority": "high"
+  },
+  {
+    "id": 15,
+    "userId": "user890",
+    "userName": "Liam Brown",
+    "roomNumber": "312",
+    "title": "Biometric Access Denied",
+    "description": "Access denied at LYF entrance; requesting immediate assistance.",
+    "createdAt": "2024-10-28T18:30:00",
+    "status": "pending",
+    "type": "access",
+    "priority": "high"
+  },
+  {
+    "id": 16,
+    "userId": "user321",
+    "userName": "Evelyn Johnson",
+    "roomNumber": "313",
+    "title": "Biometric Access Upgrade",
+    "description": "Requesting biometric upgrade for room and LYF facility access.",
+    "createdAt": "2024-10-28T16:20:00",
+    "status": "completed",
+    "type": "access",
+    "priority": "medium"
+  },
+  {
+    "id": 17,
+    "userId": "user342",
+    "userName": "John Doe",
+    "roomNumber": "305",
+    "title": "Temporary Biometric Access",
+    "description": "Requesting temporary biometric access to LYF facilities.",
+    "createdAt": "2024-10-28T19:10:00",
+    "status": "pending",
+    "type": "access",
+    "priority": "low"
+  },
+  {
+    "id": 18,
+    "userId": "user678",
+    "userName": "Laura Chen",
+    "roomNumber": "309",
+    "title": "Biometric Re-enrollment",
+    "description": "Need assistance re-enrolling biometrics for LYF access.",
+    "createdAt": "2024-10-28T15:40:00",
+    "status": "in progress",
+    "type": "access",
+    "priority": "medium"
+  },
+  {
+    "id": 19,
+    "userId": "user789",
+    "userName": "Michael Smith",
+    "roomNumber": "308",
+    "title": "Biometric Malfunction",
+    "description": "Biometric scanner at LYF entrance not responding.",
+    "createdAt": "2024-10-28T16:05:00",
+    "status": "pending",
+    "type": "access",
+    "priority": "high"
+  },
+  {
+    "id": 20,
+    "userId": "user234",
+    "userName": "Mark Wilson",
+    "roomNumber": "310",
+    "title": "Biometric Enrollment Assistance",
+    "description": "Requesting help with initial biometric enrollment for LYF access.",
+    "createdAt": "2024-10-28T20:00:00",
+    "status": "completed",
+    "type": "access",
+    "priority": "low"
+  }
+]

@@ -33,21 +33,27 @@ export default function Home() {
             <div className="hidden md:flex space-x-6">
               <a
                 href="#features"
-                className="text-blue-300 hover:text-blue-100 transition duration-300"
+                className="text-blue-300 hover:text-blue-100 transition duration-300 m-3"
               >
                 Features
               </a>
               <a
                 href="#benefits"
-                className="text-blue-300 hover:text-blue-100 transition duration-300"
+                className="text-blue-300 hover:text-blue-100 transition duration-300 m-3"
               >
                 Benefits
               </a>
               <a
                 href="#contact"
-                className="text-blue-300 hover:text-blue-100 transition duration-300"
+                className="text-blue-300 hover:text-blue-100 transition duration-300 m-3"
               >
                 Contact
+              </a>
+              <a
+                href="/login"
+                className="text-blue-300 hover:text-blue-100 transition duration-300 rounded-xl p-2 bg-white bg-opacity-10 hover:bg-opacity-30"
+              >
+                Admin
               </a>
             </div>
             <button
@@ -89,6 +95,12 @@ export default function Home() {
                 className="block py-2 text-blue-300 hover:text-blue-100"
               >
                 Contact
+              </a>
+              <a
+                href="/login"
+                className="block py-2 text-blue-300 hover:text-blue-100"
+              >
+                Login
               </a>
             </div>
           )}
@@ -273,43 +285,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <footer className="bg-black text-blue-300 py-12">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold mb-4">Asterion</h3>
-              <p>&copy; 2024 Asterion. Shaping the Future of Hotel Security.</p>
-            </div>
-            <div className="text-center">
-              
-            </div>
-            <div className="text-center md:text-right">
-              <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
-              <p className="mb-2">
-                <a
-                  href="https://wa.me/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition duration-300"
-                >
-                  WhatsApp: +52 (565) 323-9357
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://t.me/asterionsecurity"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition duration-300"
-                >
-                  Telegram: @asterionsecurity
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
